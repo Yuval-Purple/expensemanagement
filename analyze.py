@@ -26,6 +26,8 @@ expenses = [dict(zip(data[2], row)) for row in data[4:-2]]
 
 next_row = len(cells) + 1
 
+# Idan Was Here!!!
+
 for expense in expenses:
 	for v, k in expense.iteritems():
 		if column_translation.has_key(v):
